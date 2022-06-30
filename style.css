@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#myPage{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	/*border: 3px solid blue;*/
+	/*background-image: linear-gradient(#ee9ca7 , #ffdde1);*/
+}
+.mandatory{
+	font-size: 20px;
+}
+
+.notMandatory{
+	font-size: 20px;
+}
+
+.mandatory:after{
+	content: " *";
+	font-size: 15px;
+	color: red; 
+}
+
+.boxSize{
+	height: 30px;
+	width: 300px;
+	padding-left: 10px;
+}
+.boxSize1{
+	height: 36px;
+	width: 325px;
+	padding-left: 10px;
+}
+
+.marLft{
+	margin-left: 10px;
+}
+
+.boxSizeFull{
+	height: 30px;
+	width: 645px;
+	padding-left: 10px;
+}
+
+#btn, #btn1, #submitBtn{
+	width: 100px;
+	height: 35px;
+	font-size: 25px;
+	 cursor: pointer;
+
+}
+
+input{
+	border-radius: 10px;
+	border-style: solid;
+}
+
+.doc{
+	padding-top: 10px;
+	padding-left: 10px;
+	opacity: 0.8;
+}
+
+select{
+	border-style: solid;
+	border-radius: 10px;
+}
+
+button{
+	border-style: solid;
+	border-radius: 10px;
+}
+
+button:hover{
+	background-color: red;
+	color: white;
+	border-color: grey;
+	font-size: 30px;
+}
+
+#submitBtn:hover{
+	background-color: green;
+	color: white;
+}
+
+
+form{
+	/*border: 2px solid red;*/
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+	background-color: #f0f4fc;
+}

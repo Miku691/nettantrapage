@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>second page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="myPage">
+		<form>
+			<label for="myHSCInstitution" class="mandatory">HSC Institution Name</label><br>
+			<input type="text" name="myHSCInstitution" id="myHSCInstitution" class="boxSizeFull" placeholder="HSC Institution Name" required>
+
+			<br><br>
+			<label for="myHSCBoard" class="mandatory">HSC Board Name</label><br>
+			<input type="text" name="myHSCBoard" id="myHSCBoard" class="boxSizeFull" placeholder="HSC Board Name" required>
+
+			<br><br>
+			<label for="myHSCScore" class="mandatory">HSC Percentage</label><br>
+			<input type="number" name="myHSCScore" id="myHSCScore" class="boxSizeFull" placeholder="HSC Percentage" required>
+
+			<br><br><br><br>
+
+			<label for="mySSCInstitution" class="mandatory">SSC Institution Name</label><br>
+			<input type="text" name="mySSCInstitution" id="mySSCInstitution" class="boxSizeFull" placeholder="SSC Institution Name" required>
+
+			<br><br>
+			<label for="mySSCBoard" class="mandatory">SSC Board Name</label><br>
+			<input type="text" name="mySSCBoard" id="mySSCBoard" class="boxSizeFull" placeholder="SSC Board Name" required>
+
+			<br><br>
+			<label for="mySSCScore" class="mandatory">SSC Percentage</label><br>
+			<input type="number" name="mySSCScore" id="mySSCScore" class="boxSizeFull" placeholder="SSC Percentage" required>
+
+			<br><br><br><br>
+
+			<label for="currentInstitution" class="mandatory">Current Institution Name</label><br>
+			<input type="text" name="currentInstitution" id="currentInstitution" class="boxSizeFull" placeholder="Current Institution Name" required>
+
+			<br><br>
+			<label for="currentCBoard" class="mandatory">Current Board Name</label><br>
+			<input type="text" name="currentBoard" id="currentBoard" class="boxSizeFull" placeholder="Current Board Name" required>
+
+			<br><br>
+			<label for="currentScore" class="mandatory">Overal Percentage</label><br>
+			<input type="number" name="currentScore" id="currentScore" class="boxSizeFull" placeholder="Overral Percentage" required>
+
+			<br><br>
+			<label for="currentBack" class="mandatory">Backlogs If Any</label><br>
+			<input type="number" name="currentBack" id="currentBack" class="boxSizeFull" required>
+
+
+			<br><br>
+			<center><button id="btn1" onclick="goToThird()" formvalidate> Next</button></center>
+		</form>
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+	
+</body>
+</html>
